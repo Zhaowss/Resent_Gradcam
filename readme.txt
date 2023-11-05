@@ -1,0 +1,9 @@
+运行之前先安装    pip install grad-cam
+
+之后即可运行代码
+
+其中mynetwork是属于定义的模型，加载了原本你自己定义的resent并新增分类层，以此实现Gradcam的效果
+resent是原始你自己更改后定义的网络。
+test_primitive_restnet属于原始的resent的网络检测后的特征的热力图的测试脚本
+test_yourrestnet属于你改进后的的resent的网络检测后的特征的热力图的测试脚本
+
